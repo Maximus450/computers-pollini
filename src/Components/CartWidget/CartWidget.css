@@ -1,0 +1,18 @@
+.cartwidget {
+  position: relative;
+  padding-right: 25px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.quantity {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(183, 230, 181);
+  border-radius: 50%;
+  font-size: 14px;
+  text-align: center;
+  line-height: 19px;
+  position: absolute;
+}
