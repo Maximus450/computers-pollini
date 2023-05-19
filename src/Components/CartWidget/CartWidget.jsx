@@ -3,7 +3,7 @@ import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 
 import './CartWidget.css';
 
-export const CartWidget = () => {
+const CartWidget = () => {
   return (
     <div className="cartwidget">
       <FontAwesomeIcon icon={faCartShopping} size="xl" style={{color: "#0d5916",}} />
@@ -11,3 +11,5 @@ export const CartWidget = () => {
     </div>
   );
 };
+
+export default CartWidget
